@@ -53,4 +53,5 @@ Things you may want to cover:
 
 *README編集
 
+*helper作成
 
