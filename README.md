@@ -46,6 +46,9 @@ Things you may want to cover:
 
 *confirmの中身を作成
 
+*_formの中身を作成
+
+
 *model モデル作成
 
 
