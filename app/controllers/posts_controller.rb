@@ -17,16 +17,13 @@ class PostsController < ApplicationController
         if @post.save
           redirect_to new_post_path,notice:"ブログを作成しました！"
         else
-  
-           #入力フォームを歳描画します。
            render :new 
         end
       end
     end
   
     def show
-    
-      
+
     end
   
     def edit
@@ -44,7 +41,6 @@ class PostsController < ApplicationController
     end
   
     def destroy
-     
       @post.destroy
       redirect_to posts_path, notice:"ブログを削除しました！"
     end

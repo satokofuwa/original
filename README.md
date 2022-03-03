@@ -57,4 +57,6 @@ Things you may want to cover:
 
 *helper中身・controllerファイルを作成
 
+*title 削除
+
 

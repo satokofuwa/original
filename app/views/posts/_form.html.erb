@@ -7,23 +7,21 @@
     <link rel="stylesheet" href="css/sample.css">
   </head>
 
-  <body>
-    <%= form_with(model: @post, local: true ,url: choose_new_or_edit ) do |form| %>
-      <% if @post.errors.any? %>
-       <div id="error_explanation">
+<body>
+    <header>
+      <%= form_with(model: @post, local: true ) do |form| %>
+        <% if @post.errors.any? %>
+          <div id="error_explanation">
             <h2><%= @post.errors.count %>件のエラーがあります。</h2>
             <ul>
-                <% @post.errors.full_messages.each do |msg| %>
-                    <li type="circle"><%= msg %></li>
+              <% @post.errors.full_messages.each do |msg| %>
+                <li type="circle"><%= msg %></li>
+               <% end %>
             </ul>
        </div>
       <% end %>
-    <% end %>
-  </body>
-</html>
   
-    </div>
-    <div class="post_title">
+    <div class="post_content">
         <%= form.label :content %>
         <%= form.text_field :content %>
     </div>
