@@ -27,7 +27,9 @@ Things you may want to cover:
 * Webpacker install & compile
 
 * rails db:create 
+
 * routes作成
+
 * view file 作成
 
 *database.yml コメントアウト
@@ -35,4 +37,7 @@ Things you may want to cover:
 *CreatePosts作成
 
 *Post table作成
+
+*model モデル作成
+
 
