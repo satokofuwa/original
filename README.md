@@ -31,3 +31,5 @@ Things you may want to cover:
 * view file 作成
 
 *database.yml コメントアウト
+
+*CreatePosts作成
