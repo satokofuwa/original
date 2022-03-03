@@ -22,6 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * rails new でoriginalを作成
+
 * webpacker 5.0をbundle
 
 * Webpacker install & compile
@@ -48,7 +49,8 @@ Things you may want to cover:
 
 *_formの中身を作成
 
-
 *model モデル作成
+
+*README編集
 
 
