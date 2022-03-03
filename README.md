@@ -63,5 +63,7 @@ Things you may want to cover:
 
 *CSSの場所変更と内容変更
 
+*TimeStamp追加
+
 
 

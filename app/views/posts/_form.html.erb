@@ -1,30 +1,19 @@
- <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/sample.css">
-  </head>
-
-<body>
-    <header>
-      <%= form_with(model: @post, local: true ) do |form| %>
-        <% if @post.errors.any? %>
-          <div id="error_explanation">
-            <h2><%= @post.errors.count %>件のエラーがあります。</h2>
-            <ul>
-              <% @post.errors.full_messages.each do |msg| %>
-                <li type="circle"><%= msg %></li>
-               <% end %>
-            </ul>
-       </div>
-      <% end %>
+<%= form_with(model: @post, local: true ) do |form| %>
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= @post.errors.count %>件のエラーがあります。</h2>
+        <ul>
+          <% @post.errors.full_messages.each do |msg| %>
+            <li type="circle"><%= msg %></li>
+          <% end %>
+        </ul>
+    </div>
+  <% end %>
   
     <div class="post_content">
-        <%= form.label :content %>
-        <%= form.text_field :content %>
+      <%= form.label :content %>
+      <%= form.text_field :content %>
     </div>
-    <%= form.submit %>
+  <%= form.submit %>
 <% end %>
 <%= link_to "メッセージ一覧画面にもどる", posts_path %>

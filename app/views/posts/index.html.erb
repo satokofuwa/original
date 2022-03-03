@@ -1,20 +1,6 @@
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/sample.css">
-   </head>
-   
-   <div class ="container">
-
-   <body>
-       <section class="about">
-       <h2>Original Message</h1>
-         <p><%= notice %></p>
-        </section>
+<h2>Original Message</h1>
+  <p><%= notice %></p>
 
     <table>
       <tr>
@@ -29,7 +15,5 @@
           <td><%= link_to 'メッセージを削除する', post_path(post.id), method: :delete ,data: { confirm: '本当に削除していいですか？' }%></td>
         </tr>
       <% end %>
-    <%= link_to '新しくメッセージを投稿する', new_post_path %>
+      <%= link_to '新しくメッセージを投稿する', new_post_path %>
     </table>
-  </body>
-</html>
