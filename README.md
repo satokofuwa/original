@@ -40,6 +40,8 @@ Things you may want to cover:
 
 *new作成
 
+*indexの中身を作成
+
 *model モデル作成
 
 
