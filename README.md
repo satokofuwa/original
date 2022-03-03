@@ -42,6 +42,8 @@ Things you may want to cover:
 
 *indexの中身を作成
 
+*editの中身を作成
+
 *model モデル作成
 
 

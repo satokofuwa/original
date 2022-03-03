@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Achieve</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/sample.css">
+  </head>
+
+  <body>
+    <header>
+      <h3>以下の内容で、送信します。</h3>
+    <header>
+
+    <%= form_with(model: @post, url: posts_path, local: true) do |form| %>
+    <%= form.hidden_field :content %>
+    <p>本文:<%= @post.content %></p>
+    <%= form.submit  "登録する" %>
+    <%= form.submit "戻る", name: 'back' %>
+    <% end %>
+  </body>
+</html>
