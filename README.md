@@ -23,6 +23,11 @@ Things you may want to cover:
 
 * rails new でoriginalを作成
 * webpacker 5.0をbundle
+
 * Webpacker install & compile
+
 * rails db:create 
 * routes作成
+* view file 作成
+
+*database.yml コメントアウト
