@@ -59,4 +59,7 @@ Things you may want to cover:
 
 *title 削除
 
+*form内容修正　他コメントアウト
+
+
 
