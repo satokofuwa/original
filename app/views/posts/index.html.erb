@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Achieve</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/sample.css">
+   </head>
+   
+   <div class ="container">
+
+   <body>
+       <section class="about">
+       <h2>Original Message</h1>
+         <p><%= notice %></p>
+        </section>
+
+    <table>
+      <tr>
+        <th>内容</th>
+      </tr>
+
+      <% @posts.each do |post| %>
+        <tr>
+          <td><%= post.content %></td>
+          <td><%= link_to '詳細を確認する', post_path(post.id)%></td>
+          <td><%= link_to 'メッセージを編集する', edit_post_path(post.id), data: { confirm: '本当に編集していいですか？' }%></td>
+          <td><%= link_to 'メッセージを削除する', post_path(post.id), method: :delete ,data: { confirm: '本当に削除していいですか？' }%></td>
+        </tr>
+      <% end %>
+    <%= link_to '新しくメッセージを投稿する', new_post_path %>
+    </table>
+  </body>
+</html>

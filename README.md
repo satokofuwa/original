@@ -38,6 +38,8 @@ Things you may want to cover:
 
 *Post table作成
 
+*new作成
+
 *model モデル作成
 
 
