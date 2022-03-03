@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * rails new でoriginalを作成
+* webpacker 5.0をbundle
+* Webpacker install & compile
+* rails db:create 
+* routes作成
