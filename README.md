@@ -44,6 +44,8 @@ Things you may want to cover:
 
 *editの中身を作成
 
+*confirmの中身を作成
+
 *model モデル作成
 
 
