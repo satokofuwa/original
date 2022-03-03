@@ -61,5 +61,7 @@ Things you may want to cover:
 
 *form内容修正　他コメントアウト
 
+*CSSの場所変更と内容変更
+
 
 
