@@ -33,3 +33,6 @@ Things you may want to cover:
 *database.yml コメントアウト
 
 *CreatePosts作成
+
+*Post table作成
+
