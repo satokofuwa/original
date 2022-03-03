@@ -55,3 +55,6 @@ Things you may want to cover:
 
 *helper作成
 
+*helper中身・controllerファイルを作成
+
+
