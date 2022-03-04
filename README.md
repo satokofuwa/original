@@ -67,5 +67,10 @@ Things you may want to cover:
 
 *インデント修正
 
+*Gemfile コメントアウト
+
+*タイムゾーンの設定
+
+
 
 

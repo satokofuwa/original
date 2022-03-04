@@ -1,9 +1,9 @@
+      <h2>Original Message</h2>
+      <p><%= notice %></p>
 
-<h2>Original Message</h1>
-  <p><%= notice %></p>
-
-    <table>
+     <table>
       <tr>
+        <br>
         <th>内容</th>
       </tr>
 
@@ -15,5 +15,6 @@
           <td><%= link_to 'メッセージを削除する', post_path(post.id), method: :delete ,data: { confirm: '本当に削除していいですか？' }%></td>
         </tr>
       <% end %>
+      <br>
       <%= link_to '新しくメッセージを投稿する', new_post_path %>
-    </table>
+     </table>
