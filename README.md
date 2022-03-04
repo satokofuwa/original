@@ -41,6 +41,8 @@ Things you may want to cover:
 
 *new作成
 
+*CSSファイルの作成
+
 *indexの中身を作成
 
 *editの中身を作成
