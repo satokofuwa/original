@@ -77,5 +77,4 @@ Things you may want to cover:
 
 *confirm画面表示　修正
 
-
-
+*確認画面→投稿画面に修正

@@ -15,7 +15,7 @@ class PostsController < ApplicationController
           render :edit
       else
         if @post.save
-          redirect_to new_post_path,notice:"ブログを作成しました！"
+          redirect_to posts_path,notice:"ブログを作成しました！"
         else
           render :new 
         end
