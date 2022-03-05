@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Achieve</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/sample.css">
-  </head>
-  <body>
-<%= form_with(model: @post, local: true ) do |form| %>
+<br>
+  <%= form_with(model: @post, url: choose_new_or_edit, local: true) do |form| %>
+  <br>
   <% if @post.errors.any? %>
     <div id="error_explanation">
       <h2><%= @post.errors.count %>件のエラーがあります。</h2>
@@ -19,9 +11,8 @@
         </ul>
     </div>
   <% end %>
-</body>
-</html>
-  
+   
+    <br>
     <div class="post_content">
       <%= form.label :content %>
       <%= form.text_field :content %>

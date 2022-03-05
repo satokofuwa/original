@@ -41,7 +41,9 @@ Things you may want to cover:
 
 *new作成
 
-*CSSファイルの作成
+*CSSファイルの内容変更
+
+*README編集
 
 *indexの中身を作成
 
@@ -73,6 +75,7 @@ Things you may want to cover:
 
 *タイムゾーンの設定
 
+*confirm画面表示　修正
 
 
 

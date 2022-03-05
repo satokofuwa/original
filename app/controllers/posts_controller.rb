@@ -27,7 +27,7 @@ class PostsController < ApplicationController
     end
   
     def edit
-      @post = Post.find(params[:id])
+      
     end
   
     def update
@@ -37,7 +37,7 @@ class PostsController < ApplicationController
         else
           @post.update(post_params)
           redirect_to posts_path, notice:"ブログを編集しました!"
-      end
+       end
     end
   
     def destroy
@@ -47,7 +47,7 @@ class PostsController < ApplicationController
   
     def confirm
       @post=Post.new(post_params)
-      @post.id =params[:id]
+      @post.id=params[:id]
       render :new if @post.invalid?
     end
   
